@@ -5,8 +5,8 @@ class Success extends Component {
     render() {
         return (
             <Grid item>
-                <h1 style={{textAlign: "center", color: "#00e676"}}>Success! Your ban appeal has been submitted to the mods!</h1>
-                <h4>Please allow some time for them to review your appeal. Abusing this system will result in a perma-ban.</h4>
+                <h1 style={{textAlign: "center", color: "#00e676"}}>Dein Entbannungsantrag wurde nun an die Moderation des Südpol Servers weitergeleitet!</h1>
+                <h4>NBitte gebe uns Zeit, dein Entbannungsantrag zu überprüfen. Das Ausnutzen des Entbannungsantrag System führt zu einer Sperrung des Entbannungsantrag.</h4>
             </Grid>
         );
     }
