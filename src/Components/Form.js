@@ -119,13 +119,13 @@ class Form extends Component {
         if (this.state.notBanned) {
             return <Redirect to={{
                 pathname: '/404',
-                state: {errorCode: '403', errorMessage: "It looks like you're not banned... yet..."}
+                state: {errorCode: '403', errorMessage: "Du bist nicht gebannt, deswegen kannst Du auch kein Entbannungsantrag stellen."}
             }}/>;
         }
         if (this.state.blocked) {
             return <Redirect to={{
                 pathname: '/404',
-                state: {errorCode: '403', errorMessage: "You have been blocked from submitting further ban appeals"}
+                state: {errorCode: '403', errorMessage: "Du wurdest blockiert von dem Entbannungsantrag Formular!"}
             }}/>;
         }
 
