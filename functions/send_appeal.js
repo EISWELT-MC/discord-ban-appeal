@@ -73,7 +73,7 @@ exports.handler = async function (event, context) {
         components: [{
             type: 2,
             style: 5,
-            label: "Approve appeal and unban user",
+            label: "Entbannungsantrag annehmen & Nutzer entbannen",
             url: `${data.unban_url}?token=${encodeURIComponent(event.headers.authorization)}`
         }]
     }]
