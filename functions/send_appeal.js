@@ -53,7 +53,7 @@ exports.handler = async function (event, context) {
     var appeal_channel_id = process.env.APPEALS_CHANNEL;
     var body = {
         embed: {
-            title: "New Ban Appeal Received",
+            title: "Neuer Entbannungsantrag",
             description: `**Username**: <@${unbanInfo.user_id}> (${unbanInfo.username}#${unbanInfo.user_discriminator})`,
             author: {
                 name: unbanInfo.username,
