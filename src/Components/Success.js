@@ -6,7 +6,7 @@ class Success extends Component {
         return (
             <Grid item>
                 <h1 style={{textAlign: "center", color: "#00e676"}}>Dein Entbannungsantrag wurde nun an die Moderation des Südpol Servers weitergeleitet!</h1>
-                <h4>NBitte gebe uns Zeit, dein Entbannungsantrag zu überprüfen. Das Ausnutzen des Entbannungsantrag System führt zu einer Sperrung des Entbannungsantrag.</h4>
+                <h4>Bitte gebe uns Zeit, dein Entbannungsantrag zu überprüfen. Das Ausnutzen des Entbannungsantrag System führt zu einer Sperrung des Entbannungsantrag.</h4>
             </Grid>
         );
     }
